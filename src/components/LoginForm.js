@@ -7,7 +7,7 @@ const LoginForm = () => {
             <input className={styles.input} type="text" name="username" id="username" />
             <label className={styles.label} htmlFor="pasword">Password</label>
             <input className={styles.input} type="password" name="password" id="password" />
-            <input className={styles.submit} type="submit" value="Submit"/>
+            <button className={styles.submit} type="submit">Submit</button>
         </form>
     );
 }
